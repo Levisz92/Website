@@ -1,0 +1,32 @@
+header, footer {
+    background-color: #333;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+/* Achtergrondkleuren voor elke cel */
+#cell-1 { background-color: #FFD700; }
+#cell-2 { background-color: #FF6347; }
+#cell-3 { background-color: #90EE90; }
+#cell-4 { background-color: #87CEFA; }
+#cell-5 { background-color: #FFB6C1; }
+#cell-6 { background-color: #8A2BE2; }
+#cell-7 { background-color: #20B2AA; }
+#cell-8 { background-color: #D2691E; }
+#cell-9 { background-color: #00CED1; }
+#cell-10 { background-color: #FF4500; }
+#cell-11 { background-color: #ADFF2F; }
+#cell-12 { background-color: #4B0082; }
+#cell-13 { background-color: #FA8072; }
+#cell-14 { background-color: #6A5ACD; }
+#cell-15 { background-color: #48D1CC; }
+#cell-16 { background-color: #F0E68C; }
+
+/* Achtergrondkleuren voor woorden */
+.woord1 { background-color: #FFFACD; }
+.woord2 { background-color: #E6E6FA; }
+.woord3 { background-color: #F5DEB3; }
+.woord4 { background-color: #B0E0E6; }
