@@ -1,32 +1,124 @@
-header, footer {
-    background-color: #333;
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #edededd0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+ul {
+    background: #007bff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
     color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+ul li a:hover {
+    background: #0056b3;
+    border-radius: 5px;
+}
+
+.information {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.information img {
+    border-radius: 10px;
+}
+
+.information p {
+    text-align: justify;
+    color: #000000;
 }
 
 table {
-    width: 100%;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
-/* Achtergrondkleuren voor elke cel */
-#cell-1 { background-color: #FFD700; }
-#cell-2 { background-color: #FF6347; }
-#cell-3 { background-color: #90EE90; }
-#cell-4 { background-color: #87CEFA; }
-#cell-5 { background-color: #FFB6C1; }
-#cell-6 { background-color: #8A2BE2; }
-#cell-7 { background-color: #20B2AA; }
-#cell-8 { background-color: #D2691E; }
-#cell-9 { background-color: #00CED1; }
-#cell-10 { background-color: #FF4500; }
-#cell-11 { background-color: #ADFF2F; }
-#cell-12 { background-color: #4B0082; }
-#cell-13 { background-color: #FA8072; }
-#cell-14 { background-color: #6A5ACD; }
-#cell-15 { background-color: #48D1CC; }
-#cell-16 { background-color: #F0E68C; }
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
 
-/* Achtergrondkleuren voor woorden */
-.woord1 { background-color: #FFFACD; }
-.woord2 { background-color: #E6E6FA; }
-.woord3 { background-color: #F5DEB3; }
-.woord4 { background-color: #B0E0E6; }
+th {
+    background: #007bff;
+    color: white;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
